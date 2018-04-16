@@ -167,7 +167,7 @@ a:hover {
 
 		.drag3{
 			left: 235px;
-			top: 95px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -176,7 +176,7 @@ a:hover {
 
 		.drag4{
 			left: 325px;
-			top: 0px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -185,7 +185,7 @@ a:hover {
 
 		.drag5{
 			left: 430px;
-			top: -100px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -193,7 +193,7 @@ a:hover {
 
 		.drag6{
 			left: 535px;
-			top: -200px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -201,7 +201,7 @@ a:hover {
 
 		.drag7{
 			left: 625px;
-			top: -305px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -209,7 +209,7 @@ a:hover {
 
 		.drag8{
 			left: 710px;
-			top: -400px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -217,7 +217,7 @@ a:hover {
 
 		.drag9{
 			left: 775px;
-			top: -500px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -226,7 +226,7 @@ a:hover {
 
 		.drag10{
 			left: 850px;
-			top: -600px;
+			top: 300px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
