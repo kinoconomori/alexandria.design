@@ -159,7 +159,7 @@ a:hover {
 
 		.drag2{
 			left: 150px;
-			top: 300px;
+			top: 200px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -167,7 +167,7 @@ a:hover {
 
 		.drag3{
 			left: 235px;
-			top: 300px;
+			top: 95px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -176,7 +176,7 @@ a:hover {
 
 		.drag4{
 			left: 325px;
-			top: 300px;
+			top: 0px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -185,7 +185,7 @@ a:hover {
 
 		.drag5{
 			left: 430px;
-			top: 300px;
+			top: -100px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -193,7 +193,7 @@ a:hover {
 
 		.drag6{
 			left: 535px;
-			top: 300px;
+			top: -200px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -201,7 +201,7 @@ a:hover {
 
 		.drag7{
 			left: 625px;
-			top: 300px;
+			top: -305px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -209,7 +209,7 @@ a:hover {
 
 		.drag8{
 			left: 710px;
-			top: 300px;
+			top: -400px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -217,7 +217,7 @@ a:hover {
 
 		.drag9{
 			left: 775px;
-			top: 300px;
+			top: -500px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -226,7 +226,7 @@ a:hover {
 
 		.drag10{
 			left: 850px;
-			top: 300px;
+			top: -600px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
@@ -271,6 +271,27 @@ a:hover {
 			height: 100px;
 			z-index:3;
 		}
+
+
+.star{
+	top: 125px;
+	left:950px;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	z-index: 10;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
 
 
 
