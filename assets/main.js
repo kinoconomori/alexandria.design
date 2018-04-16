@@ -14,6 +14,8 @@ $( function() {
     $( ".drag13" ).draggable({ containment: "parent" });
     $( ".drag14" ).draggable({ containment: "parent" });
     $( ".drag15" ).draggable({ containment: "parent" });
+
+    $( ".drag16" ).draggable({ containment: "parent" });
   } );
 
 $(document).ready(function() {

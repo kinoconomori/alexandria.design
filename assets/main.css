@@ -265,8 +265,16 @@ a:hover {
 		}
 
 		.drag15{
-			left: 300px;
-			top: -1200px;
+			left: 315px;
+			top: -1250px;
+			width: 100px;
+			height: 100px;
+			z-index:3;
+		}
+
+		.drag16{
+			left: 500px;
+			top: -2000px;
 			width: 100px;
 			height: 100px;
 			z-index:3;
