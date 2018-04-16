@@ -10,6 +10,10 @@ $( function() {
     $( ".drag9" ).draggable({ containment: "parent" });
     $( ".drag10" ).draggable({ containment: "parent" });
     $( ".drag11" ).draggable({ containment: "parent" });
+    $( ".drag12" ).draggable({ containment: "parent" });
+    $( ".drag13" ).draggable({ containment: "parent" });
+    $( ".drag14" ).draggable({ containment: "parent" });
+    $( ".drag15" ).draggable({ containment: "parent" });
   } );
 
 $(document).ready(function() {
