@@ -573,7 +573,9 @@ PROJECT PAGES */
 
 	/* Full width Image box */
 	.box1{
-		width:100%;
+		width:80%;
+		padding-top:75px;
+		padding-left:10vw;
 		height: auto;
 		position:relative;
 		z-index:5;
@@ -661,12 +663,33 @@ PROJECT PAGES */
 
 
 	.profiletext{
+		line-height: 1.25;
 		margin-left:75px;
 		float: left;
 		position: relative;
-		margin-top:10%;
+		margin-top: -55px;
 		width:40vw;
 	}
 
+
+	.profiletext a:link, a:active, a:visited{
+		color: #000000;
+  		background-color: #f2bd2e;
+  		text-decoration: none;
+	}
 	
 
+	.profiletext a:hover{
+		color: #000000;
+  		background-color: #FFFFFF;
+  		text-decoration: none;
+	}
+
+
+
+	p.profilehead{
+		font-family: 'Raleway', serif;
+		font-weight: bold;
+		font-size:35pt;
+		color: #f0492f;
+	}
