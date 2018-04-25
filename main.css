@@ -40,6 +40,26 @@ a:hover {
 		z-index:6;
 	}
 
+.footnav {
+
+   		display:block;
+		background-color: #FFFFFF;
+		font-size:10px;
+		width:100%;
+		text-align: center;
+		margin-left: 0px;
+		height:25px;
+		float:left;
+		position: relative;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+  		right: 0;
+  		bottom: 0;
+  		left: 0;
+		z-index:6;
+	}
+
+
 
 /* NAVIGATION HEADER yeahok/*/
 
@@ -676,14 +696,13 @@ PROJECT PAGES */
 
 	.profiletext a:link, a:active, a:visited{
 		color: #000000;
-  		background-color: #f2bd2e;
-  		text-decoration: none;
+  		border-bottom: solid 3px #f2bd2e;
 	}
 	
 
 	.profiletext a:hover{
 		color: #000000;
-  		background-color: #FFFFFF;
+  		background-color: #f2bd2e;
   		text-decoration: none;
 	}
 
