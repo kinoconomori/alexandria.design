@@ -740,7 +740,9 @@ PROJECT PAGES */
 
 	p.profilehead{
 		font-family: 'Raleway', serif;
+		line-height:45px;
 		font-weight: bold;
-		font-size:35pt;
+		font-size:30pt;
+		margin-bottom:20px;
 		color: #f0492f;
 	}
