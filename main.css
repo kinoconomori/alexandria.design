@@ -746,3 +746,65 @@ PROJECT PAGES */
 		margin-bottom:20px;
 		color: #f0492f;
 	}
+
+
+	.popup {
+   		width:100%;
+    	height:100%;
+    	display:none;
+    	position:fixed;
+    	margin: auto;
+    	text-align: center;
+    	top:0px;
+    	left:0px;
+    	background-color:#ffffff;
+    	z-index:10;
+	}
+
+	.popupinfo {
+   		width:100%;
+    	height:100%;
+    	display:none;
+    	position:fixed;
+    	margin: auto;
+    	top:0px;
+    	left:0px;
+    	background-color:#FFFFFF;
+    	z-index:10;
+	}
+
+
+	.popup-inner {
+    	max-width:800px;
+    	width:70%;
+    	padding:10px;
+    	position:absolute;
+    	top:50%;
+    	left:50%;
+    	-webkit-transform:translate(-50%, -50%);
+    	transform:translate(-50%, -50%);
+    	border-radius:3px;
+    	background:#fff;
+	}
+
+	.popup-innerinfo {
+    	max-width:700px;
+    	width:90%;
+    	padding:65px;
+    	position:absolute;
+    	top:50%;
+    	left:50%;
+    	-webkit-transform:translate(-50%, -50%);
+    	transform:translate(-50%, -50%);
+    	border-radius:3px;
+    	background:#fff;
+	}
+
+
+/* Close Button */
+	.popup-close {
+    	position:absolute;
+    	top:0px;
+    	right:0px;
+	}
+ 
