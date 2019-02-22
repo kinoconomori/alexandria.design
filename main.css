@@ -622,6 +622,7 @@ PROJECT PAGES */
 		padding-top:75px;
 		padding-left:10vw;
 		height: auto;
+		display:block;
 		position:relative;
 		z-index:5;
 	}
@@ -630,6 +631,7 @@ PROJECT PAGES */
 		width:50%;
 		height:auto;
 		float:left;
+		display:block;
 		position: relative;
 		z-index:6;
 	}
@@ -641,6 +643,8 @@ PROJECT PAGES */
 		width:100%;
 		height:25px;
 		float:left;
+
+		display:block;
 		position: relative;
 		z-index:6;
 	}
