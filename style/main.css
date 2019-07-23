@@ -414,7 +414,7 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 .profileimg{
 	float: left;
 	position: relative;
-	background: url("photos/profile/photo.jpg");
+	background: url("../photos/profile/photo.jpg");
 	background-size:35vw auto;
 	height:auto;
 	width:33%;
@@ -423,7 +423,7 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 }
 
  .profileimg:hover {
-        background: url("photos/profile/photo2.jpg");
+        background: url("../photos/profile/photo2.jpg");
 		background-size:35vw auto;
 		cursor: pointer;
     }
