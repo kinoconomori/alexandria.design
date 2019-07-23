@@ -17,11 +17,7 @@ $( function() {
     $( ".drag16" ).draggable({ containment: "parent" });
   } );
 
-$(document).ready(function() {
-            var colors = ["#f0492f", "#f1bd2b", "#74cdd7", "#27a775"];
-            var rand = Math.floor(Math.random() * colors.length);
-            $('.profile').css("background-color", colors[rand]);
-});
+
 
 $(function() {
     //----- OPEN
@@ -40,5 +36,7 @@ $(function() {
         e.preventDefault();
     });
 });
+
+
 
 
