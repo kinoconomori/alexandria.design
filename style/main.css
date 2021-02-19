@@ -619,7 +619,7 @@ PROJECT PAGES */
 		.profileimg{
 			float: left;
 			position: relative;
-			background: url("photos/profile/photo.jpg");
+			background: url("photos/profile/profile.jpg");
 			background-size:35vw auto;
 			height:40vw;
 			width:35vw;
@@ -628,7 +628,7 @@ PROJECT PAGES */
 		}
 
  		.profileimg:hover {
-      		background: url("photos/profile/photo2.jpg");
+      		background: url("photos/profile/profile2.jpg");
 			background-size:35vw auto;
 			cursor: pointer;
     	}
