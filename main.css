@@ -1,12 +1,9 @@
-/* This code is a steaming pile of shit, i'm not sure why you would want to look at it, 
-but have a nice day!
-*/
-
-
 body{
-	font-family: adelle-sans, sans-serif;
-	font-weight: 500;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
 	font-style: normal;
+	font-size:15px;
+		line-height: 1.40;
 }
 
 a:link, a:active, a:visited {
@@ -21,11 +18,17 @@ a:hover {
   cursor: pointer;
 }
 
+#confetti {
+    position: absolute;
+    z-index: 3;
+}
+
+
 
 .footer {
 
    		display:block;
-		background-color: #FFFFFF;
+		background-color: #f1bc3e;
 		font-size:10px;
 		width:100%;
 		text-align: center;
@@ -33,43 +36,7 @@ a:hover {
 		height:25px;
 		float:left;
 		position: relative;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-  		right: 0;
-  		bottom: 0;
-  		left: 0;
-		z-index:6;
-	}
-
-#footnav {
-   		display:block;
-		background-color: #FFFFFF;
-		font-size:10px;
-		width:100%;
-		text-align: center;
-		margin-left: 0px;
-		height:25px;
-		float:left;
-		position: relative;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-  		right: 0;
-  		bottom: 0;
-  		left: 0;
-		z-index:6;
-	}
-
-#bottomnav{
-
-   		display:block;
-		background-color: white;
-		font-size:12px;
-		width:33%;
-		text-align: center;
-		margin-left: 0px;
-		height:25px;
-		float:left;
-		position: relative;
+		margin-top: 1rem;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
   		right: 0;
@@ -79,22 +46,12 @@ a:hover {
 	}
 
 
-	.bottom-links a:link, a:active, a:visited{
-		color: #000000;
-  		border-bottom: solid 3px #f2bd2e;
-	}
-	
-
-	.bottom-links a:hover{
-		color: #000000;
-  		background-color: #f2bd2e;
-  		text-decoration: none;
-	}
 
 /* NAVIGATION HEADER yeahok/*/
 
 	#navbar {
- 		position: absolute;
+		background-color:white;
+ 		position: fixed;
   		top: 0;
  		height: 60px;
  		line-height: 60px;
@@ -111,7 +68,7 @@ a:hover {
   				height: 60px;
   				letter-spacing: 1px;
 
-			
+
   			}
 
 		#navbar ul {
@@ -124,7 +81,7 @@ a:hover {
   			transition: transform 0.5s ease-out;
   			-webkit-transition: transform 0.5s ease-out;
 		} @media(max-width: 640px) {
-    
+
    		 #navbar ul {
      		 display: none;
     	}
@@ -221,12 +178,13 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 /* PLAY BOX /*/
 
 	.play{
+		background-color:white;
 		width:100%;
 		height:500px;
 		margin:0 none;
-		background-color:white;
 		position:relative;
 		z-index:5;
+		padding: none;
 	}
 
 	.play:hover{
@@ -384,7 +342,7 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 @keyframes floating {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }    
+    to   { transform: translate(0, -0px); }
 }
 
 
@@ -411,89 +369,70 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 　　　/￣￣￣￣￣ヽ
 */
 
-.profileimg{
-	float: left;
-	position: relative;
-	background: url("photos/profile/photo.jpg");
-	background-size:35vw auto;
-	height:auto;
-	width:33%;
-	cursor: pointer;
-
-}
-
- .profileimg:hover {
-        background: url("photos/profile/photo2.jpg");
-		background-size:35vw auto;
-		cursor: pointer;
-    }
-
 
 
  /* MAIN DIV */
 
-#boxes{
-	top:50px;
-	position:absolute;
-	width:100%;
-	height:100%;
-	margin:0px;
+#content{
+	background-color:none;
+	height:auto;
+	padding: 15px;
+  	position: relative;
+  	display:block;
 }
+
+
+
 
 /* PAGE LINK BOXES */
 
-	.project-boxes{ 
-		text-align:center;
-		color:#f2bd2e;
-		width:33%;
-		height:0;
-		padding-bottom: 33%;
-		float:left;
-		position:relative;
-	}
+.container {
+  position: relative;
+  width: 33%;
+  float:left;
+}
 
-	/* Child Text Container */
-		.project-boxes div{
- 			position: absolute;
- 			top: 0;
- 			left: 0;
- 			background: #f2bd2e;
- 			font-size:25pt;
- 			color: #000000;
- 			width: 100%;
- 			height: 100%;
- 			font-family: adelle-sans, sans-serif;
-		font-weight: 700;
- 			visibility: hidden;
-			}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-	/* Hover on Parent Container */
-			.project-boxes:hover{
-			 cursor: pointer;
-			}
-
-			.project-boxes:hover div{
-				width: 100%;
- 				visibility: visible;
-				}
-
-.project-boxes img{
-	width: 100%;
-	height: auto;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
 }
 
 
-/* Child Text Container */
-		#two div{
- 			background: #73cdd8;
 
-			}
+.container:hover .overlay {
+  opacity: 1;
+}
 
-	
-	/* Child Text Container */
-		#three div{
- 			background: #ef4930;
-			}
+.text {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  font-family: 'monotalic', Fallback, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
 
 
 
@@ -513,16 +452,9 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 
 /* HEADERS */
 
-	p.mainheadred{
-		font-weight: 800;
-		font-size:35pt;
-		color: #f0492f;
-		margin-bottom:-20px;
-		text-align: center;
-	}
-
 	p.mainhead{
-		font-weight: 800;
+		font-family: monotalic, sans-serif;
+		font-weight: 700;
 		font-size:35pt;
 		color: #000000;
 		margin-bottom:-20px;
@@ -532,8 +464,8 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 
 	p.subhead{
 		text-align: center;
-		font-weight: 400;
-		color: #c0c0c0;
+		font-weight: 700;
+		color:#000000;
 		font-size:15pt;
 	}
 
@@ -575,8 +507,6 @@ PROJECT PAGES */
 
 	.descriptiontext{
 		position:relative;
-		font-size: 1.1em;
-		line-height: 1.6em;
 		margin-top:0px;
 		margin-bottom:0px;
 		width:50vw;
@@ -600,8 +530,6 @@ PROJECT PAGES */
 
 	.colorboxtext2{
 		position:relative;
-		font-size: 1.1em;
-		line-height: 1.6em;
 		margin-top:0px;
 		margin-bottom:0px;
 		width:30vw;
@@ -635,10 +563,8 @@ PROJECT PAGES */
 		display:block;
 		background-color: white;
 		width:100%;
-		height:25px;
+		height:75px;
 		float:left;
-
-		display:block;
 		position: relative;
 		z-index:6;
 	}
@@ -657,31 +583,28 @@ PROJECT PAGES */
 }
 
 
-.item{
-	left:15vw;
-	width: 70vw;
-	height: auto;
-	position: relative;
-	margin-bottom:25px;
-}
 
 
 
 /* PROFILE PAGE
 */
 
+
 	.profile{
-		font-size:17px;
+		font-size:15px;
 		width:auto;
 		margin-left:10%;
 		margin-top:10%;
 		position:absolute;
 	}
 
+
+
+
 		.profileimg{
 			float: left;
 			position: relative;
-			background: url("photos/profile/photo.jpg");
+			background: url("photos/profile/profile.jpg");
 			background-size:35vw auto;
 			height:40vw;
 			width:35vw;
@@ -690,14 +613,14 @@ PROJECT PAGES */
 		}
 
  		.profileimg:hover {
-      		background: url("photos/profile/photo2.jpg");
+      		background: url("photos/profile/profile2.jpg");
 			background-size:35vw auto;
 			cursor: pointer;
     	}
 
 
 	.profiletext{
-		line-height: 1.25;
+		line-height: 1.40;
 		margin-left:75px;
 		float: left;
 		position: relative;
@@ -707,87 +630,34 @@ PROJECT PAGES */
 
 
 	.profiletext a:link, a:active, a:visited{
+
 		color: #000000;
   		border-bottom: solid 3px #f2bd2e;
 	}
-	
+
 
 	.profiletext a:hover{
 		color: #000000;
   		background-color: #f2bd2e;
   		text-decoration: none;
+  		cursor: pointer;
 	}
 
 /*dsjhgkdufhgkudethgiuk */
 
 
 	p.profilehead{
-		adelle-sans, sans-serif;
+		font-family: monotalic, sans-serif;
+		font-weight: 700;
+		font-style: normal;
 		line-height:58px;
-		font-weight: 900;
-		font-size:35pt;
+		font-size:30pt;
 		margin-bottom:20px;
-		color: #f0492f;
 	}
 
+p.resumehead {
+		font-family: monotalic, sans-serif;
+		font-weight: 400;
+		font-style: normal;
 
-	.popup {
-   		width:100%;
-    	height:100%;
-    	display:none;
-    	position:fixed;
-    	margin: auto;
-    	text-align: center;
-    	top:0px;
-    	left:0px;
-    	background-color:#ffffff;
-    	z-index:10;
-	}
-
-	.popupinfo {
-   		width:100%;
-    	height:100%;
-    	display:none;
-    	position:fixed;
-    	margin: auto;
-    	top:0px;
-    	left:0px;
-    	background-color:#FFFFFF;
-    	z-index:10;
-	}
-
-
-	.popup-inner {
-    	max-width:800px;
-    	width:70%;
-    	padding:10px;
-    	position:absolute;
-    	top:50%;
-    	left:50%;
-    	-webkit-transform:translate(-50%, -50%);
-    	transform:translate(-50%, -50%);
-    	border-radius:3px;
-    	background:#fff;
-	}
-
-	.popup-innerinfo {
-    	max-width:700px;
-    	width:90%;
-    	padding:65px;
-    	position:absolute;
-    	top:50%;
-    	left:50%;
-    	-webkit-transform:translate(-50%, -50%);
-    	transform:translate(-50%, -50%);
-    	border-radius:3px;
-    	background:#fff;
-	}
-
-
-/* Close Button */
-	.popup-close {
-    	position:absolute;
-    	top:0px;
-    	right:0px;
-	}
- 
+}
