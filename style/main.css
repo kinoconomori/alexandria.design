@@ -371,23 +371,6 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 　　　/￣￣￣￣￣ヽ
 */
 
-.profileimg{
-	float: left;
-	position: relative;
-	background: url("photos/profile/photo.jpg");
-	background-size:35vw auto;
-	height:auto;
-	width:33%;
-	cursor: pointer;
-
-}
-
- .profileimg:hover {
-        background: url("photos/profile/photo2.jpg");
-		background-size:35vw auto;
-		cursor: pointer;
-    }
-
 
 
  /* MAIN DIV */
@@ -608,6 +591,7 @@ PROJECT PAGES */
 /* PROFILE PAGE
 */
 
+
 	.profile{
 		font-size:15px;
 		width:auto;
@@ -615,6 +599,9 @@ PROJECT PAGES */
 		margin-top:10%;
 		position:absolute;
 	}
+
+
+
 
 		.profileimg{
 			float: left;
@@ -655,6 +642,7 @@ PROJECT PAGES */
 		color: #000000;
   		background-color: #f2bd2e;
   		text-decoration: none;
+  		cursor: pointer;
 	}
 
 /*dsjhgkdufhgkudethgiuk */
