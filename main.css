@@ -457,6 +457,7 @@ to{opacity:1;-webkit-transform:none;transform:none}}
 		font-weight: 700;
 		font-size:35pt;
 		color: #000000;
+		line-height:50px;
 		margin-bottom:-20px;
 		text-align: center;
 		padding-bottom:20px;
@@ -650,7 +651,7 @@ PROJECT PAGES */
 		font-family: monotalic, sans-serif;
 		font-weight: 700;
 		font-style: normal;
-		line-height:58px;
+		line-height:50px;
 		font-size:30pt;
 		margin-bottom:20px;
 	}
@@ -661,3 +662,4 @@ p.resumehead {
 		font-style: normal;
 
 }
+
