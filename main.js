@@ -35,5 +35,6 @@ $(document).ready(function() {
             var rand = Math.floor(Math.random() * colors.length);
             $('.mainhead').css("color", colors[rand]);
             $('.overlay').css("background-color", colors[rand]);
+            $('.footer').css("background-color", colors[rand]);
 });
   
