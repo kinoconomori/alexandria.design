@@ -1,0 +1,19 @@
+	/* Full width Image box */
+	.box1 {
+		width: 80%;
+		padding-top: 75px;
+		padding-left: 10vw;
+		height: auto;
+		display: block;
+		position: relative;
+		z-index: 5;
+	}
+
+	.box3 {
+		width: 50%;
+		height: auto;
+		float: left;
+		display: block;
+		position: relative;
+		z-index: 6;
+	}

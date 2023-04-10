@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #f1bc3e;
+  justify-content: center; /* Add this to center the footer-container */
+  width: 100%;
+  height: 100px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  z-index: 6;
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  width: 100%;
+  margin-left: 17px;
+  margin-right: 17px;
+  width: 80%;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+}
+
+.footer-left li, .footer-right li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#footer li a {
+  display: block;
+  font-size: 14pt;
+  height: 50px;
+  letter-spacing: 1px;
+  padding: 0 4px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}

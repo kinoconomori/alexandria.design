@@ -1,0 +1,19 @@
+.descriptionbox {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+.descriptiontext {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50vw;
+    padding-left: 25%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}

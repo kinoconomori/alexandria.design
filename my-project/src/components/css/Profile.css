@@ -1,0 +1,74 @@
+.profile {
+    font-size: 15px;
+    width: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.profile-container {
+    flex-grow: 1;
+}
+
+.profile-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profileimg {
+    float: left;
+    position: relative;
+    height: 30vw;
+    width: 25vw;
+    cursor: pointer;
+
+}
+
+.profileimg:hover {
+    background-size: 25vw auto;
+    cursor: pointer;
+}
+
+
+.profiletext {
+    line-height: 1.40;
+    margin-left: 75px;
+    float: left;
+    position: relative;
+    margin-top: -55px;
+    width: 40vw;
+}
+
+
+.profiletext a:link,
+a:active,
+a:visited {
+
+    color: #000000;
+    border-bottom: solid 3px #f2bd2e;
+}
+
+
+.profiletext a:hover {
+    color: #000000;
+    background-color: #f2bd2e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+p.profilehead {
+    font-family: monotalic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 50px;
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+
+p.resumehead {
+    font-family: monotalic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}

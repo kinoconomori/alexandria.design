@@ -1,0 +1,38 @@
+	/* Full width Image box */
+	.box1{
+		width:80%;
+		padding-top:75px;
+		padding-left:10vw;
+		height: auto;
+		display:block;
+		position:relative;
+		z-index:5;
+	}
+
+	.box3{
+		width:50%;
+		height:auto;
+		float:left;
+		display:block;
+		position: relative;
+		z-index:6;
+	}
+
+
+    .bounce-in{
+        animation:bounceIn .8s forwards;
+        animation-fill-mode:both;
+        animation-delay:.08s
+    }
+    
+    .bounce-in2{
+        animation:bounceIn .9s forwards;
+        animation-fill-mode:both;
+        animation-delay:.085s
+    }
+    
+    .bounce-in3{
+        animation:bounceIn .95s forwards;
+        animation-fill-mode:both;
+        animation-delay:.095s
+    }

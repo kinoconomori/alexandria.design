@@ -1,0 +1,18 @@
+.box3 {
+    width: 50%;
+    height: auto;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 6;
+}
+
+.colorboxtext2{
+    position:relative;
+    margin-top:0px;
+    margin-bottom:0px;
+    width:30vw;
+    padding-left:25%;
+    padding-top:15%;
+    padding-bottom:15%;
+}
